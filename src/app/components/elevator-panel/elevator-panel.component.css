@@ -1,0 +1,109 @@
+.floor {
+    margin-bottom: 10px;
+  }
+  
+  .floor-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+  }
+  
+  .floor-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    display: block;
+    width: 100%;
+  }
+  .floor-buttons button:hover {
+    background-color: #0a4f16 !important;
+  }
+  
+  .floor-buttons button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  .floor-buttons button:disabled:hover {
+    background-color: lightgray !important;
+    cursor: not-allowed;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .modal-actions {
+    margin-top: 20px;
+  }
+  
+  .modal-actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .elevator-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .elevator-table th, .elevator-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .elevator-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .elevator-table button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .elevator-table button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  .elevator-status {
+    margin-top: 20px;
+  }
+  
+  .elevator-status ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .elevator-status li {
+    margin-bottom: 5px;
+  }
